@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            user-select: none;
+        }
+        body {
+            height: 100svh;
+            width: 100svw;
+            overflow: hidden;
+        }
+        .top, .search, .app {
+            width: 100%;
+            height: 5%;
+        }
+        .search {
+            background-color: rgb(160, 247, 247);
+            padding-top: 1%;
+            display: flex;
+            align-items: center;
+        }
+        .app {
+            background-color: rgb(160, 247, 247);
+            padding-bottom: 1.5%;
+        }
+        .top {
+            padding: 8px;
+            background-color: rgb(176, 176, 191);
+        }
+        .t {
+            height: 100%;
+            width: 20%;
+            background-color: aqua;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        .se, .se2, .se3 {
+            height: 100%;
+            width: 5%;
+            display: inline-block;
+            border-radius: 5px;
+            margin-left: 0.5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .se:hover, .se2:hover, .se3:hover {
+            background-color: rgba(240, 240, 232, 0.896);
+        }
+        .search input {
+            height: 100%;
+            width: 82%;
+            margin-left: 0.5%;
+            border-radius: 30px;
+            font-size: 1.5em;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600;
+        }
+        .main {
+            width: 100%;
+            height: 100%;
+        }
+        .google {
+            width: 100%;
+            font-size: 3em;
+            font-weight: 900;
+            text-align: center;
+            margin-top: 8%;
+        }
+        .s {
+            width: 100%;
+            height: 10%;
+            margin-top: 2%;
+        }
+        .a {
+            width: 44%;
+            margin: 0 auto;
+            text-align: center;
+            justify-content: center;
+        }
+        .s input {
+            width: 40%;
+            height: 80%;
+            display: block;
+            margin: 0 auto;
+            border-radius: 30px;
+            font-size: 1.5em;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600;
+        }
+        .i {
+            height: calc(4svh + 4svw);
+            width: calc(4svh + 4svw);
+            border-radius: 10px;
+            display: inline-block;
+            margin: 2%;
+            font-size: 1em;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        .i:hover {
+            background-color: rgb(216, 228, 239);
+        }
+        .i img {
+            height: 40px;
+            width: 40px;
+            display: block;
+            margin: 0 auto;
+        }
+        .ap {
+            height: 30px;
+            width: 100px;
+            border-radius: 20px;
+            display: inline-flex;
+            margin-left: 0.5%;
+            margin-top: 1%;
+            font-size: 1em;
+            font-weight: 600;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .ap:hover {
+            background-color: rgb(232, 243, 243);
+        }
+        .ap img {
+            height: 30px;
+            width: 30px;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="t"></div>
+    </div>
+    <div class="search">
+        <div class="se" id="back">
+            <span class="material-symbols-outlined">arrow_back</span>
+        </div>
+        <div class="se2" id="forward">
+            <span class="material-symbols-outlined">arrow_forward</span>
+        </div>
+        <div class="se3" id="refresh">
+            <span class="material-symbols-outlined">refresh</span>
+        </div>
+        <input type="search" name="" id="">
+    </div>
+    <div class="app">
+        <div class="ap"><a href="https://mail.google.com/" target="_blank"><img src="gmail.png" alt="Gmail"></a> Gmail</div>
+        <div class="ap"><a href="https://www.youtube.com/" target="_blank"><img src="youtube.png" alt="YouTube"></a> YouTube</div>
+        <div class="ap"><a href="https://www.google.com/maps" target="_blank"><img src="google-maps.png" alt="Maps"></a> Maps</div>
+    </div>
+    <div class="main">
+        <div class="google">GOOGLE</div>
+        <div class="s">
+            <input type="search" name="" id="">
+        </div>
+        <div class="a">
+            <div class="i"><a href="https://www.linkedin.com/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a> Linkedin</div>
+            <div class="i"><a href="https://www.youtube.com/" target="_blank"><img src="youtube.png" alt="YouTube"></a> YouTube</div>
+            <div class="i"><a href="https://photos.google.com/" target="_blank"><img src="photo.png" alt="Photos"></a> Photos</div>
+            <div class="i"><a href="https://news.google.com/" target="_blank"><img src="news.png" alt="News"></a> News</div>
+            <div class="i"><a href="https://classroom.google.com/" target="_blank"><img src="Classroom.png" alt="Classroom"></a> Classroom</div>
+            <div class="i"><a href="https://mail.google.com/" target="_blank"><img src="gmail.png" alt="Gmail"></a> Gmail</div>
+            <div class="i"><a href="https://www.coursera.org/" target="_blank"><img src="coursera-logo.png" alt="Coursera"></a> Coursera</div>
+            <div class="i"><a href="https://www.indiabix.com/" target="_blank"><img src="indiabix.png" alt="Indiabix"></a> Indiabix</div>
+            <div class="i"><a href="https://www.ilovepdf.com/" target="_blank"><img src="i love.png" alt="PDF"></a> PDF</div>
+            <div class="i"><a href="https://www.google.com/maps" target="_blank"><img src="google-maps.png" alt="Maps"></a> Maps</div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('back').addEventListener('click', () => {
+            window.history.back();
+        });
+
+        document.getElementById('forward').addEventListener('click', () => {
+            window.history.forward();
+        });
+
+        document.getElementById('refresh').addEventListener('click', () => {
+            window.location.reload();
+        });
+    </script>
+</body>
+</html>
